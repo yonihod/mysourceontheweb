@@ -1,0 +1,25 @@
+[
+  {
+    "icon": "../images/work/panda-logo.png",
+    "title": "Panda O.S",
+    "subtitle": "Full Stack Developer",
+    "period": "Oct '17 - Today",
+    "location": "Tel Aviv, Israel",
+    "specialization": "Angular.js, PHP, Wordpress, CSS, ES6, HTML5"
+  },
+  {
+    "icon": "../images/work/wix-logo.png",
+    "title": "Wix",
+    "subtitle": "Student Position - Online Chat Customer Service",
+    "period": "'august 12 - 13",
+    "location": "Tel Aviv, Israel"
+  },
+  {
+    "icon": "../images/work/leumi-card.png",
+    "title": "Leumi Card",
+    "subtitle": "Customer Service Representative in the Certificate and Block Department",
+    "period": "Jun '10 - Jul '12",
+    "location": "Ramat Gan, Israel",
+    "specialization": "Service oriented"
+  }
+]

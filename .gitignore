@@ -1,0 +1,15 @@
+# Project Dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build Directory
+/public
+
+# macOS Artificats
+.DS_Store
+
+# Deployment-specific Configs
+.now
+.env
+now.json

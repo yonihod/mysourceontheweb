@@ -1,0 +1,17 @@
+.language {
+  @apply text-sm mb-3;
+}
+
+.language > span.divider {
+  @apply opacity-25 mx-5;
+}
+
+.language:last-child > span.divider {
+  @apply hidden;
+}
+
+@screen md {
+  .language {
+    @apply mb-0;
+  }
+}

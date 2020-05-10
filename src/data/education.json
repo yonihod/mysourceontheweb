@@ -1,0 +1,14 @@
+[
+  {
+    "icon": "../images/education/colman.png",
+    "title": "College of Management Academic Studies\n",
+    "subtitle": "Bachelor's Degree in Computer Science & Engineering",
+    "period": "2017 - 2020"
+  },
+  {
+    "icon": "../images/education/yeshiva.png",
+    "title": "High School Yeshiva Rishon Leziyon",
+    "subtitle": "High School",
+    "period": "2000-2006"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "../images/skills/web.png",
+    "name": "Web Design & Development",
+    "tech": "HTML/CSS/Javascript"
+  },
+  {
+    "icon": "../images/skills/angular.png",
+    "name": "Frontend Javascript Frameworks",
+    "tech": "AngularJS/React"
+  },
+  {
+    "icon": "../images/skills/nodejs.png",
+    "name": "Backend Javascript Frameworks",
+    "tech": "Node.js/Express.js/Mongoose"
+  },
+  {
+    "icon": "../images/skills/database.png",
+    "name": "Database Management System",
+    "tech": "MySQL/MongoDB"
+  }
+]

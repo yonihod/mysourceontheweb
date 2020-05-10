@@ -1,0 +1,43 @@
+[
+  {
+    "image": "../images/projects/developi-site.png",
+    "title": "Developi",
+    "description": "Final Graduation project, a place for freelancers to find a job and for publishers to submit",
+    "tags": ["React.js", "Express.js", "Node.js","MongoDB.js"],
+    "github": "https://github.com/yonihod/FullStackProj/"
+  },
+  {
+    "image": "../images/projects/getsat.png",
+    "title": "Get Sat",
+    "description": "Israeli Satellite Company",
+    "tags": ["satellite", "wordpress", "custom tailored"],
+    "website": "https://getsat.com"
+  },
+  {
+    "image": "../images/projects/maccabi-tlv.png",
+    "title": "Maccabi TLV Football club",
+    "description": "Maccabi TLV is one of the best football clubs in Israel",
+    "tags": ["football", "web apps", "wordpress"],
+    "website": "https://maccabi-tlv.co.il/"
+  },
+  {
+    "image": "../images/projects/nom-gaming.png",
+    "title": "Nom Gaming Esport Organization",
+    "description": "Nom Gaming was founded to be a proffesional home for gamers in Israel, the team compete in multiple genres",
+    "tags": ["gaming", "fifa", "fortnite", "wordpress"],
+    "website": "https://nom-gaming.com/"
+  },
+  {
+    "image": "../images/projects/nas-radio.png",
+    "title": "Nas Radio FM",
+    "description": "Nas Radio",
+    "tags": ["wordpress", "javascript", "audio", "less", "tailored solution"],
+    "website": "https://nasradio.fm"
+  },
+  {
+    "image": "../images/projects/madad.png",
+    "title": "Madad Tama 38",
+    "description": "Wordpress site that was build on tailored request to support comparing companies and service providers from the real estate industry",
+    "tags": ["real estate", "tailored solution", "wordpress", "less"]
+  }
+]
