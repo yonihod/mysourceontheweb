@@ -82,7 +82,7 @@ const Contact = () => {
             name="name"
             type="text"
             ref={nameRef}
-            placeholder="Regina Phalange"
+            placeholder="Bob"
             onChange={e => setName(e.target.value)}
             className="border-2 border-gray-700 focus:border-gray-300 px-4 py-2 text-lg bg-transparent duration-200 focus:outline-none"
           />
@@ -97,7 +97,7 @@ const Contact = () => {
             name="email"
             type="email"
             ref={emailRef}
-            placeholder="regina@example.com"
+            placeholder="bob@example.com"
             onChange={e => setEmail(e.target.value)}
             className="border-2 border-gray-700 focus:border-gray-300 px-4 py-2 text-lg bg-transparent duration-200 focus:outline-none"
           />

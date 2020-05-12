@@ -5,9 +5,9 @@
     "tech": "HTML/CSS/Javascript"
   },
   {
-    "icon": "../images/skills/angular.png",
+    "icon": "../images/skills/react.png",
     "name": "Frontend Javascript Frameworks",
-    "tech": "AngularJS/React"
+    "tech": "React/AngularJS"
   },
   {
     "icon": "../images/skills/nodejs.png",

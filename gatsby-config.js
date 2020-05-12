@@ -59,7 +59,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Fira Sans:400,600`],
+        fonts: [`Amaranth:200,400`],
         display: `swap`,
       },
     },
@@ -70,12 +70,6 @@ module.exports = {
       options: {
         name: `images`,
         path: path.join(__dirname, `src`, `images`),
-      },
-    },
-    {
-      resolve: `gatsby-source-dev`,
-      options: {
-        username: `amruthpillai`,
       },
     },
     `gatsby-transformer-remark`,
@@ -92,12 +86,6 @@ module.exports = {
       options: {
         name: `data`,
         path: path.join(__dirname, `src`, `data`),
-      },
-    },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `amruthpillai`,
       },
     },
     {

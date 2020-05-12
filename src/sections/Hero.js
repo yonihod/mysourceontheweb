@@ -5,6 +5,7 @@ import React, { useRef, useState, useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import Social from "../components/Social";
 import Subtitle from "../components/Subtitle";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -70,7 +71,7 @@ const Hero = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-5 row-gap-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
         <div ref={parallaxRef} className="col-span-2">
           <div className="max-w-lg mx-auto" data-depth="0.4">
-            <Img fadeIn={false} fluid={data.photo.childImageSharp.fluid} />
+            <Img fadeIn={false} fluid={data.photo.childImageSharp.fluid} className={styles.border} />
           </div>
         </div>
         <div className="col-span-3">

@@ -7,7 +7,7 @@ import Button from "../components/Button";
 const Footer = () => {
   const data = useStaticQuery(graphql`
     {
-      markdownRemark(frontmatter: { id: { eq: "about-rotw" } }) {
+      markdownRemark(frontmatter: { id: { eq: "about-sotw" } }) {
         html
       }
     }
@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <section id="footer">
-      <Heading icon={FaInfoCircle} title="About Resume on the Web" />
+      <Heading icon={FaInfoCircle} title="About Source on the Web" />
 
       <div
         className="text-justify w-full md:w-4/5 lg:w-3/4 wow fadeIn"
@@ -28,7 +28,7 @@ const Footer = () => {
         title="Star this Project on GitHub"
         onClick={() =>
           window.open(
-            "https://github.com/AmruthPillai/ResumeOnTheWeb-Gatsby",
+            "https://github.com/yonihod/mysourceontheweb",
             "_blank",
           )
         }

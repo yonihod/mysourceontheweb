@@ -1,10 +1,12 @@
 .container {
-  @apply flex overflow-x-auto pb-8;
+  @apply flex pb-8;
+  flex-wrap: wrap;
 }
 
 .project {
   min-width: 280px;
   max-width: 280px;
+  padding: 1rem;
   @apply mr-10 rounded-lg flex flex-col;
 }
 

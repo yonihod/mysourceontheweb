@@ -30,7 +30,7 @@ const
         <span className="text-red-500">Node.js</span>,
         <span className="text-red-500">HTML</span>,
         <span className="text-red-500">CSS</span>, ...
-        <span className="text-red-500">Dreams fulfiller</span>,
+        <span className="text-red-500">loading</span>,
       </div>
       <div>];</div>
     </code>

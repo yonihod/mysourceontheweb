@@ -19,7 +19,7 @@ const sections = [
   { id: "languages", title: "Languages", icon: FaSignLanguage },
   { id: "resume", title: "Resume", icon: IoIosDocument },
   { id: "contact", title: "Contact", icon: IoIosPaperPlane },
-  { id: "footer", title: "About RotW", icon: FaInfoCircle },
+  { id: "footer", title: "About SotW", icon: FaInfoCircle },
 ];
 
 export default sections;
