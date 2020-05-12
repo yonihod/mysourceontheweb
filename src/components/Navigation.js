@@ -15,7 +15,14 @@ const Navigation = () => {
       icon: file(relativePath: { eq: "icon.png" }) {
         childImageSharp {
           fixed(width: 32, height: 32) {
-            ...GatsbyImageSharpFixed_withWebp
+              width
+              height
+              aspectRatio
+              base64
+              src
+              srcSet
+              srcWebp
+              tracedSVG
           }
         }
       }

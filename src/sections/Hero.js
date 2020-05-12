@@ -5,7 +5,6 @@ import React, { useRef, useState, useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import Social from "../components/Social";
 import Subtitle from "../components/Subtitle";
-import styles from "./Hero.module.css";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -14,7 +13,7 @@ const Hero = () => {
   const [showSocial, setShowSocial] = useState(false);
   const data = useStaticQuery(graphql`
     {
-      photo: file(relativePath: { eq: "yoni_work.png" }) {
+      photo: file(relativePath: { eq: "yoni_work_2.png" }) {
         childImageSharp {
           fluid(maxWidth: 512,quality:100) {
               aspectRatio
@@ -27,7 +26,7 @@ const Hero = () => {
           }
         }
       }
-      logo: file(relativePath: { eq: "yoni_logo.png" }) {
+      logo: file(relativePath: { eq: "yoni_logo_1.png" }) {
         childImageSharp {
           fluid(maxHeight: 128,quality:100) {
               aspectRatio
