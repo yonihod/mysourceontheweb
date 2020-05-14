@@ -1,5 +1,4 @@
 import { graphql, useStaticQuery } from "gatsby";
-import GatsbyImage from "gatsby-image";
 import React from "react";
 import Heading from "../components/Heading";
 import { GoTools } from "../components/Icons";
@@ -15,17 +14,15 @@ const Skills = () => {
             name
             tech
             icon {
-              childImageSharp {
-                fixed(width: 20, height: 20) {
-                  ...GatsbyImageSharpFixed_withWebp
-                }
-              }
+                extension
+                publicURL
             }
           }
         }
       }
     }
   `);
+
   return (
     <section id="skills">
       <Heading icon={GoTools} title="Skills" />
@@ -40,16 +37,8 @@ const Skills = () => {
             }}
           >
             <div className="flex items-center">
-              <GatsbyImage
-                className="w-5 h-5 mr-5"
-                {...node.icon.childImageSharp}
-              />
-              {typeof node.secondaryIcon !== 'undefined' &&
-              <GatsbyImage
-                className="w-5 h-5 mr-5"
-                {...node.secondaryIcon.childImageSharp}
-              />
-              }
+
+              <img className="w-10 h-10 mr-5" src={node.icon.publicURL}/>
               <div>
                 <h6 className="font-semibold leading-none">
                   {node.name}

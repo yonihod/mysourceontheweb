@@ -93,7 +93,7 @@ const Hero = () => {
               }}
             />
 
-            <div className="w-full md:w-auto h-6 my-6 ml-16">
+            <div className="w-full md:w-auto h-6 my-6 lg:ml-16">
               {showSocial && <Social />}
             </div>
           </div>

@@ -1,21 +1,21 @@
 [
   {
-    "icon": "../images/skills/web.png",
+    "icon": "../images/skills/www.svg",
     "name": "Web Design & Development",
     "tech": "HTML/CSS/Javascript"
   },
   {
-    "icon": "../images/skills/react.png",
+    "icon": "../images/skills/react.svg",
     "name": "Frontend Javascript Frameworks",
     "tech": "React/AngularJS"
   },
   {
-    "icon": "../images/skills/nodejs.png",
+    "icon": "../images/skills/nodejs.svg",
     "name": "Backend Javascript Frameworks",
-    "tech": "Node.js/Express.js/Mongoose"
+    "tech": "Node.js/Express.js/Mongoose/Zend"
   },
   {
-    "icon": "../images/skills/database.png",
+    "icon": "../images/skills/database.svg",
     "name": "Database Management System",
     "tech": "MySQL/MongoDB"
   }

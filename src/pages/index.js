@@ -10,6 +10,8 @@ import Projects from "../sections/Projects";
 import Resume from "../sections/Resume";
 import Skills from "../sections/Skills";
 import Work from "../sections/Work";
+import Gaming from "../sections/Gaming";
+
 import styles from "./index.module.css";
 
 const IndexPage = () => {
@@ -24,6 +26,7 @@ const IndexPage = () => {
         </div>
         <Skills />
         <Projects />
+        <Gaming />
         <Languages />
         <Resume />
         <Contact />

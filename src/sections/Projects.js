@@ -34,7 +34,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <Heading icon={FaDev} title="Projects" />
+      <Heading icon={FaDev} title="Projects I Was Involved In" />
 
       <div className={styles.container}>
         {data.allProjectsJson.edges.map(({ node }, index) => (

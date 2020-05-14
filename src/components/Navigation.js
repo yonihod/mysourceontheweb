@@ -6,6 +6,8 @@ import ThemeContext from "../context/ThemeContext";
 import sections from "../data/sections";
 import { IoIosMoon, IoIosSunny, MdMenu } from "./Icons";
 import styles from "./Navigation.module.css";
+import { IconContext } from "react-icons";
+
 
 const Navigation = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -55,14 +57,17 @@ const Navigation = () => {
     const Icon = x.icon;
 
     return (
-      <div
-        key={x.id}
-        data-tip={x.title}
-        data-place="right"
-        onClick={() => scrollTo(x.id)}
-      >
-        <Icon />
-      </div>
+      <IconContext.Provider value={{ size: "1.25rem" }}>
+        <div
+          key={x.id}
+          data-tip={x.title}
+          data-place="right"
+          onClick={() => scrollTo(x.id)}
+        >
+          <Icon />
+        </div>
+      </IconContext.Provider>
+
     );
   };
 
@@ -81,19 +86,23 @@ const Navigation = () => {
         <GatsbyImage className="grayscale" {...data.icon.childImageSharp} />
       </div>
       <div className="hidden md:flex flex-col justify-center items-center">
-        <div className={styles.menu}>
-          <MdMenu />
-        </div>
+        <IconContext.Provider value={{ size: "1.25rem" }}>
+          <div className={styles.menu}>
+            <MdMenu />
+          </div>
+        </IconContext.Provider>
         <div className={styles.sectionLinks}>{sections.map(SectionLink)}</div>
       </div>
-      <div
-        className="flex-center cursor-pointer hover:text-primary-500"
-        onClick={toggleDark}
-        data-tip="Toggle Dark Mode"
-        data-place="right"
-      >
-        {dark ? <IoIosMoon /> : <IoIosSunny />}
-      </div>
+      <IconContext.Provider value={{ size: "1.25rem" }}>
+        <div
+          className="flex-center cursor-pointer hover:text-primary-500"
+          onClick={toggleDark}
+          data-tip="Toggle Dark Mode"
+          data-place="right"
+        >
+          {dark ? <IoIosMoon /> : <IoIosSunny />}
+        </div>
+      </IconContext.Provider>
     </div>
   );
 };

@@ -15,6 +15,7 @@ import {
   FaLinkedinIn,
   FaSignLanguage,
   FaStar,
+  FaGamepad,
   FaTwitter,
 } from "react-icons/fa";
 import { GoTools } from "react-icons/go";
@@ -65,4 +66,5 @@ export {
   MdPerson,
   MdSchool,
   MdWork,
+  FaGamepad
 };

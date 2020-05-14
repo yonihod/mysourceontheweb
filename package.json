@@ -16,6 +16,7 @@
     "gatsby-plugin-postcss": "2.2.4",
     "gatsby-plugin-purgecss": "5.0.0",
     "gatsby-plugin-react-helmet": "3.2.5",
+    "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sharp": "2.5.7",
     "gatsby-plugin-sitemap": "^2.3.6",
@@ -34,6 +35,7 @@
     "react-scroll": "^1.7.16",
     "react-tooltip": "^4.2.5",
     "react-typist": "^2.0.5",
+    "react-youtube": "^7.11.2",
     "wowjs": "^1.1.3"
   },
   "keywords": [
