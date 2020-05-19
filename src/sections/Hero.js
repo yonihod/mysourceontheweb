@@ -15,7 +15,7 @@ const Hero = () => {
     {
       photo: file(relativePath: { eq: "yoni_work_2.png" }) {
         childImageSharp {
-          fluid(maxWidth: 512,quality:100) {
+          fluid(maxWidth: 512) {
               aspectRatio
               originalName
               sizes
@@ -28,7 +28,7 @@ const Hero = () => {
       }
       logo: file(relativePath: { eq: "yoni_logo_1.png" }) {
         childImageSharp {
-          fluid(maxHeight: 128,quality:100) {
+          fluid(maxHeight: 128) {
               aspectRatio
               originalName
               sizes
