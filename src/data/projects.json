@@ -38,6 +38,7 @@
     "image": "../images/projects/madad.png",
     "title": "Madad Tama 38",
     "description": "Wordpress site that was build on tailored request to support comparing companies and service providers from the real estate industry",
-    "tags": ["real estate", "tailored solution", "wordpress", "less"]
+    "tags": ["real estate", "tailored solution", "wordpress", "less"],
+    "website": "https://madad38.nadlancenter.co.il/"
   }
 ]
