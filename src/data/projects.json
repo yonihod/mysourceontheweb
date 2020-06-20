@@ -21,13 +21,6 @@
     "website": "https://maccabi-tlv.co.il/"
   },
   {
-    "image": "../images/projects/nom-gaming.png",
-    "title": "Nom Gaming Esport Organization",
-    "description": "Nom Gaming was founded to be a proffesional home for gamers in Israel, the team compete in multiple genres",
-    "tags": ["gaming", "fifa", "fortnite", "wordpress"],
-    "website": "https://nom-gaming.com/"
-  },
-  {
     "image": "../images/projects/nas-radio.png",
     "title": "Nas Radio FM",
     "description": "Nas Radio",
