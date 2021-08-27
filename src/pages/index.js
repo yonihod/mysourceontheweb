@@ -12,7 +12,7 @@ import Skills from "../sections/Skills";
 import Work from "../sections/Work";
 import Gaming from "../sections/Gaming";
 
-import styles from "./index.module.css";
+import * as styles from "./index.module.css";
 
 const IndexPage = () => {
   return (
@@ -27,8 +27,10 @@ const IndexPage = () => {
         <Skills />
         <Projects />
         <Gaming />
-        <Languages />
-        <Resume />
+        <div className={styles.workEducation}>
+          <Languages />
+          <Resume />
+        </div>
         <Contact />
         <Footer />
       </div>

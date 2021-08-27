@@ -1,7 +1,7 @@
 .skill {
   border-color: rgba(128, 128, 128, 0.1);
   @apply border pl-5 py-3 rounded-lg mt-5;
-  padding: 2rem;
+  padding: 1.25rem;
 }
 
 .skill:hover {

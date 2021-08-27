@@ -1,9 +1,17 @@
 [
   {
+    "icon": "../images/work/logiq.png",
+    "title": "Logiq",
+    "subtitle": "Full Stack Developer",
+    "period": "Feb '21 - Today'",
+    "location": "Tel Aviv, Israel",
+    "specialization": "React.js, Node.js, AWS, PHP, Typescript, CICD, Docker, SVN/Git, Wordpress, Styled components, Firebase"
+  },
+  {
     "icon": "../images/work/panda-logo.png",
     "title": "Panda O.S",
     "subtitle": "Full Stack Developer",
-    "period": "Oct '17 - Today",
+    "period": "Oct '17 - Feb '21",
     "location": "Tel Aviv, Israel",
     "specialization": "Angular.js, PHP, Wordpress, CSS, ES6, HTML5"
   },

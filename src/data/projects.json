@@ -1,5 +1,11 @@
 [
   {
+    "image": "../images/projects/fixel.png",
+    "title": "Fixel Dashboard",
+    "description": "Developed Fixel new user console",
+    "tags": ["React.js", "Styled Components", "Figma", "CICD"]
+  },
+  {
     "image": "../images/projects/developi-site.png",
     "title": "Developi",
     "description": "Final Graduation project, a place for freelancers to find a job and for publishers to submit",

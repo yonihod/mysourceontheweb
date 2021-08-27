@@ -2,7 +2,7 @@
   {
     "icon": "../images/skills/www.svg",
     "name": "Web Design & Development",
-    "tech": "HTML/CSS/Javascript/SASS/jQuery"
+    "tech": "Javascript/ES6/HTML/CSS/SASS/jQuery"
   },
   {
     "icon": "../images/skills/react.svg",
@@ -12,7 +12,7 @@
   {
     "icon": "../images/skills/nodejs.svg",
     "name": "Backend Javascript Frameworks",
-    "tech": "Node.js/Express.js/Mongoose"
+    "tech": "Node.js/Express.js"
   },
   {
     "icon": "../images/skills/backend.svg",
@@ -27,6 +27,6 @@
   {
     "icon": "../images/skills/code.svg",
     "name": "Other",
-    "tech": "AWS, Git, Jira, Firebase"
+    "tech": "AWS, Git, Jira, Firebase, Linux, Wordpress"
   }
 ]

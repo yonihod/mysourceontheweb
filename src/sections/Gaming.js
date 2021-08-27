@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import GatsbyImage from "gatsby-image";
 import Heading from "../components/Heading";
 import { FaGamepad } from "../components/Icons";
-import styles from "./Projects.module.css";
+import * as styles from "./Projects.module.css";
 
 const Gaming = () => {
   const data = useStaticQuery(graphql`

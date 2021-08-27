@@ -4,7 +4,7 @@ import ReactTooltip from "react-tooltip";
 import ThemeContext from "../context/ThemeContext";
 import Navigation from "./Navigation";
 import SEO from "./SEO";
-import styles from "./Wrapper.module.css";
+import * as styles from "./Wrapper.module.css";
 
 const Wrapper = ({ children }) => {
   const [isMobile, setIsMobile] = useState(false);

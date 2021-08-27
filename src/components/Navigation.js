@@ -5,7 +5,7 @@ import { animateScroll as scroll, scroller } from "react-scroll";
 import ThemeContext from "../context/ThemeContext";
 import sections from "../data/sections";
 import { IoIosMoon, IoIosSunny, MdMenu } from "./Icons";
-import styles from "./Navigation.module.css";
+import * as styles from "./Navigation.module.css";
 import { IconContext } from "react-icons";
 
 
