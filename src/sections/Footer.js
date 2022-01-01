@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <section id="footer">
-      <Heading icon={FaInfoCircle} title="About Source on the Web" />
+      <Heading icon={FaInfoCircle} title="About My Place in the web" />
 
       <div
         className="text-justify w-full md:w-4/5 lg:w-3/4 wow fadeIn"

@@ -3,6 +3,7 @@ import {
   FaGithubAlt,
   FaLinkedinIn,
   FaTwitter,
+  FaStackOverflow
 } from "../components/Icons";
 
 const social = [
@@ -30,6 +31,12 @@ const social = [
     link: "https://twitter.com/yonihod199",
     class: "bg-twitter",
   },
+  {
+    title: "Stackoverflow",
+    icon:   FaStackOverflow,
+    link: "https://stackoverflow.com/users/1759249/yoni-hodeffi",
+    class: "bg-stackoverflow",
+  }
 ];
 
 export default social;

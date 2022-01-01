@@ -3,6 +3,7 @@
     "image": "../images/projects/fixel.png",
     "title": "Fixel Dashboard",
     "description": "Developed Fixel new user console",
+    "website": "https://web.fixel.ai/",
     "tags": ["React.js", "Styled Components", "Figma", "CICD"]
   },
   {

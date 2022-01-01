@@ -15,6 +15,7 @@ module.exports = {
         dev: "#0a0a0a",
         facebook: "#3B5998",
         twitter: "#1DA1F2",
+        stackoverflow: "#f48024",
         google: "#DB4437",
       },
     },

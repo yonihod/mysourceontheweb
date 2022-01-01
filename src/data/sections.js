@@ -4,7 +4,6 @@ import {
   FaSignLanguage,
   GoTools,
   IoIosDocument,
-  IoIosPaperPlane,
   MdPerson,
   MdSchool,
   FaGamepad,
@@ -20,7 +19,6 @@ const sections = [
   { id: "gaming", title: "Gaming", icon: FaGamepad },
   { id: "languages", title: "Languages", icon: FaSignLanguage },
   { id: "resume", title: "Resume", icon: IoIosDocument },
-  { id: "contact", title: "Contact", icon: IoIosPaperPlane },
   { id: "footer", title: "About SotW", icon: FaInfoCircle },
 ];
 

@@ -1,7 +1,6 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import AboutMe from "../sections/AboutMe";
-import Contact from "../sections/Contact";
 import Education from "../sections/Education";
 import Footer from "../sections/Footer";
 import Hero from "../sections/Hero";
@@ -31,7 +30,6 @@ const IndexPage = () => {
           <Languages />
           <Resume />
         </div>
-        <Contact />
         <Footer />
       </div>
     </Wrapper>

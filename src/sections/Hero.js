@@ -4,6 +4,7 @@ import Parallax from "parallax-js";
 import React, { useRef, useState, useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import Social from "../components/Social";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import Subtitle from "../components/Subtitle";
 
 const Hero = () => {
@@ -93,10 +94,24 @@ const Hero = () => {
               }}
             />
 
-            <div className="w-full md:w-auto h-6 my-6 lg:ml-16">
+            <div className="w-full md:w-auto h-6 mt-6 lg:ml-16">
               {showSocial && <Social />}
             </div>
           </div>
+          <div className={`flex items-start w-full md:w-auto h-6 lg:ml-16 text-xl mt-2 shadow-sm`}>
+            <OutboundLink
+                  href="https://blog.yonihodeffi.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`mt-2 bg-yellow-500 text-black rounded animated fadeIn lg:ml-4 px-4 py-2 no-underline hover:no-underline`}
+                  data-place="bottom"
+                  style={{
+                    animationDelay: '5.5s',
+                  }}
+                >
+                    Check out my new blog here!
+            </OutboundLink>
+          </div>      
         </div>
       </div>
     </section>

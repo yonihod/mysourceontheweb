@@ -1,6 +1,6 @@
 ---
 
-My Source On The Web
+My Place On the Web
 
 ---
 
@@ -14,7 +14,7 @@ The website features a variety of tidbits from across the web, from how the serv
 
 ## About the Project
 
-**Source on the web** has been a project that I have been developing for quite some time.
+**My Place On the Web** has been a project that I have been developing for quite some time.
 
 I didn't want my information to be displayed on statics paper in HR's offices, I wanted it to be accessible for everyone.
 

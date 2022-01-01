@@ -53,11 +53,11 @@ const Navigation = () => {
       smooth: "easeInOutCubic",
     });
 
-  const SectionLink = x => {
+  const SectionLink = (x,index) => {
     const Icon = x.icon;
 
     return (
-      <IconContext.Provider value={{ size: "1.25rem" }}>
+      <IconContext.Provider value={{ size: "1.25rem" }} key={index}>
         <div
           key={x.id}
           data-tip={x.title}

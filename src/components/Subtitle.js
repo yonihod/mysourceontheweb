@@ -25,10 +25,12 @@ const
         <span className="text-red-500">Autodidact</span>,{" "}
       </div>
       <div className="lg:pl-8">
+        <span className="text-red-500">Svelte</span>,{" "}
         <span className="text-red-500">React.js</span>,{" "}
         <span className="text-red-500">Javascript</span>,
         <span className="text-red-500">Node.js</span>,
         <span className="text-red-500">HTML</span>,
+        <span className="text-red-500">Java</span>,{" "}
         <span className="text-red-500">CSS</span>, ...
         <span className="text-red-500">loading</span>,
       </div>

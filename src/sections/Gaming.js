@@ -32,7 +32,7 @@ const Gaming = () => {
       <div className="flex flex-wrap">
         {data.allGamingJson.edges.map(({ node }, index) => (
           <div
-            key={node.id}
+            key={index}
             className={`${styles.project} wow fadeIn`}
             style={{
               animationDelay: `${index * 300 + 300}ms`,
